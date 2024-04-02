@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-mongoose.connect("string de conexão aqui")
+mongoose.connect("mongodb+srv://HACKATON:HACKATON@ccee.nswo9yo.mongodb.net/?retryWrites=true&w=majority&appName=CCEE")
 
-let db = mongoose.connect;
+let db = mongoose.connection;
 
 module.exports = db 
